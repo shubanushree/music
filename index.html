@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone</title>
+</head>
+<style>
+    #a{
+        position: absolute;
+        background-image: url('head.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        
+
+    }
+    #b{
+        font-size: small;
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+    #c{
+        
+        margin-left: 15%;
+    
+    }
+    button{
+        border-radius: 50px;
+        border-color: aliceblue;
+        margin-left: 15%;
+
+    }
+   
+    #d{
+        position: absolute;
+        height: 155px;
+        width: 100%;
+        background-color: white;
+        float: left;
+        top: 570px;
+    }
+    #e{
+        font-size: 22px;
+        margin-top: 0.5%;
+        margin-left: 15%;
+    }
+    #f{
+        font-size: 12px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #g{
+        position: absolute;
+        height: 58px;
+        width: 100%;
+        background-color:rgb(250, 197, 64);
+        float: left;
+        top: 725px;
+    }
+    #h{
+        font-size: 22px;
+        color: white;
+        margin-top: 0.1px;
+        margin-left: 33%;
+    }
+    #i{
+        position: absolute;
+        height: 430px;
+        width: 100%;
+        float: left;
+        top: 783px;
+    }
+    #j{
+        font-size: 22px;
+        padding-top: 2%;
+        margin-left: 15%;
+    }
+    #k{
+        position: absolute;
+        background-image: url('head2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        width: 24%;
+        margin-left: 15%;
+        float: left;
+        margin-top: 0.5px;
+    }
+    #l{
+        position: absolute;
+        background-image: url('head3.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        width: 24%;
+        margin-left: 40%;
+        float: left;
+        margin-top: 0.5px;
+    }
+
+    #m{
+        position: absolute;
+        background-image: url('head3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        width: 24%;
+        margin-left: 65%;
+        float: left;
+        margin-top: 0.5px;
+    }
+    #n{
+        position: absolute;
+        height: 150px;
+        width: 24%;
+        background-color: rgb(250, 197, 64);
+        margin-left: 15%;
+        float: left;
+        margin-top: 150.5px;
+
+    }
+    #o{
+        position: absolute;
+        height: 150px;
+        width: 24%;
+        background-color: rgb(250, 197, 64);
+        margin-left: 40%;
+        float: left;
+        margin-top: 150.5px;
+
+    }
+    #p{
+        position: absolute;
+        height: 150px;
+        width: 24%;
+        background-color: rgb(250, 197, 64);
+        margin-left: 65%;
+        float: left;
+        margin-top: 150.5px;
+
+    }
+    #q{
+        font-size: 14px;
+        padding-left: 3%;
+        margin-top: 3%;
+    }
+    #r{
+        font-size: 14px;
+        color: white;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #s{
+       position:absolute;
+       color: black;
+       background-color: rgb(250, 197, 64);
+       border-radius: 40px;
+       margin-left: 5%;
+       font-size: 14px;
+       margin-top: 5%;
+    }
+    
+    /* For tablet view (between 768px to 1024px) */
+    @media (max-width: 1024px) and (min-width: 768px) {
+            #a {
+                width: 100%;
+                height: 70vh;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+
+        /* For mobile phone view (up to 767px) */
+        @media (max-width: 767px) {
+            #a {
+                width: 100%;
+                height: 50vh;
+                background-position: center;
+                background-size: cover;
+            }
+            #d{
+        position: absolute;
+        height: 155px;
+        width: 100%;
+        background-color: white;
+        float: left;
+        top: 370px;
+    }
+    #g{
+        position: absolute;
+        height: 58px;
+        width: 100%;
+        background-color:rgb(250, 197, 64);
+        float: left;
+        top: 525px;
+    }
+    #h{
+        font-size: 18px;
+        color: white;
+        margin-top: 0.1px;
+        margin-left: 15%;
+    }
+    #i{
+        position: absolute;
+        height: 430px;
+        width: 100%;
+        float: left;
+        top: 583px;
+    }
+    #b{
+        font-size: 10px;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+    #c{
+        font-size: 14px;
+        margin-left: 5%;
+    
+    }
+    button{
+        border-radius: 50px;
+        border-color: aliceblue;
+        margin-left: 5%;
+
+    }
+    
+           
+        }
+
+        /* For very small phones (up to 480px) */
+        @media (max-width: 480px) {
+            #a {
+                height: 40vh;
+                background-position: center;
+                background-size: cover;
+            }
+            #b{
+        font-size: 10px;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+    #c{
+        font-size: 14px;
+        margin-left: 5%;
+    
+    }
+    button{
+        border-radius: 50px;
+        border-color: aliceblue;
+        margin-left: 5%;
+
+    }
+            #d{
+        position: absolute;
+        height: 155px;
+        width: 100%;
+        background-color: white;
+        float: left;
+        top: 270px;
+    }
+    #g{
+        position: absolute;
+        height: 58px;
+        width: 100%;
+        background-color:rgb(250, 197, 64);
+        float: left;
+        top: 515px;
+    }
+    #h{
+        font-size: 18px;
+        color: white;
+        margin-top: 0.1px;
+        margin-left: 7%;
+    }
+    #i{
+        position: absolute;
+        height: 430px;
+        width: 100%;
+        float: left;
+        top: 543px;
+    }
+    #q{
+        font-size: 10px;
+        padding-left: 3%;
+        margin-top: 3%;
+    }
+    #r{
+        font-size: 8px;
+        color: white;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #s{
+       position:absolute;
+       color: black;
+       background-color: rgb(250, 197, 64);
+       border-radius: 40px;
+       margin-left: 5%;
+       font-size: 10px;
+       margin-top: 5%;
+    }
+           
+        }
+
+        /* Additional styles for text elements, buttons, etc. */
+        h1 {
+            font-size: 3em;
+            color: white;
+        }
+
+        @media (max-width: 1024px) {
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+
+    </style>
+
+
+    </style>
+<body>
+    <div id="a">
+        <div id="b"><p><b>THINKING OF BUYING A HEADPHONE</b></p></div>
+        <div id="c"><h1>HTML Business <br> Templates</h1></div>
+      <button >Shopping Now</button>
+    </div>
+    <div id="d">
+        <div id="e"><p>Find a quality and right headphones not easy</p></div>
+        <div id="f"><p>Experience the exact same raised experience as well as incredibite audio UHP has actually
+            been delivering to opera house, workshops and also living rooms for 50 years with Business
+            HTML Templates. The headphones are all made by HTML Business Template from
+            thoroughly chosen products such as soft lambiskin, cowhide natural leather and also plated
+            aluminium to make certain excellent quality as well as convenience so you could enjoy
+            exceptional Rexibility and also craftsmanship. Learn More...
+            </p></div>
+    </div>
+    <div id="g">
+        <div id="h"><p><b>Business HTML. Templates Free Download</b></p></div>
+    </div>
+    <div id="i">
+        <div id="j"><p>Hottest headphones of the month</p></div>
+        <div id="k"><div id="s"><P>HEADPHONES</P></div></div>
+        <div id="l"><div id="s"><P>HEADPHONES</P></div></div>
+        <div id="m"><div id="s"><P>HEADPHONES</P></div></div>
+        <div id="n"><div id="q"><b>HEADPHONES</b><div id="r"><p>Experience the exact elevated experience and also amazing audio UHP has actually been providing to auditorium workshops and also living rooms for 50 years with HTML business templates</p></div>
+        </div></div>
+        <div id="o"><div id="q"><b>HEADPHONES</b><div id="r"><p>This is songs without any limitation. Surrender to business HTML Templates remarkable audio wrapped in agelss design.Let it have fun with your idea tinker your heart or alter your strategies.</p></div>
+
+        </div></div>
+        <div id="p"><div id="q"><b>HEADPHONES</b><div id="r"><p>From the storage locker area to the lecture hall,you are constantly on th page with business HTML templates.Pay attention for approximate 18 hours on a single cost,after that use Deep-dleep setting to conserver power.</p></div>
+        </div></div>
+    </div>
+</body>
+</html>
